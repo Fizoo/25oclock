@@ -1,0 +1,62 @@
+body{
+    background-color:#1e555c !important;
+    color:white !important;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    height: 100vh;
+}
+button{
+    background: #1e555c;
+    color: white;
+}
+.container{
+    color:white;
+    font-size: 30px;
+    background: #1e555c;
+}
+
+.clock{
+    text-align: center;
+}
+.clock h2{
+    color:white;
+}
+.length{
+    display: flex;
+    padding:0 10px;
+}
+.length .break{
+    padding:0 50px;
+}
+
+.length .control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   margin:0 15px;
+}
+.length .control button{
+    margin: 0 15px;
+}
+.timer{
+    text-align: center;
+    border:7px solid #13353a;
+    border-radius:50px;
+    margin: 20px auto 10px auto;
+    width: 270px;
+    height: 160px;
+}
+.buttonControl{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+}
+.redStyle{
+    color: red;
+}
